@@ -26,5 +26,6 @@
         <module>spring-boot-starter</module>
         <module>spring-web</module>
         <module>spring-event</module>
+        <module>spring-data</module>
     </modules>
 </project>
