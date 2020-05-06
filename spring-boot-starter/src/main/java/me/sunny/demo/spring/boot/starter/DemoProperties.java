@@ -1,0 +1,29 @@
+package me.sunny.demo.spring.boot.starter;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+/**
+ * @author sunnnychan@gmail.com
+ */
+
+@ConfigurationProperties(prefix = "demo")
+public class DemoProperties {
+    private String name;
+    private Integer age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+}
