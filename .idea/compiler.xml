@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-data" />
+        <module name="spring-task" />
         <module name="spring-web" />
         <module name="spring-bean" />
         <module name="spring-cookbook" />
@@ -23,6 +24,7 @@
       <module name="spring-cookbook" options="-parameters" />
       <module name="spring-data" options="-parameters" />
       <module name="spring-event" options="-parameters" />
+      <module name="spring-task" options="-parameters" />
       <module name="spring-web" options="-parameters" />
     </option>
   </component>
