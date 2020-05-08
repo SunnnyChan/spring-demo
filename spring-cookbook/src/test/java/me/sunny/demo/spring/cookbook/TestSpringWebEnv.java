@@ -16,6 +16,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.context.support.StandardServletEnvironment;
 
+/**
+ * 测试获取Spring Web 的环境变量、配置信息
+ */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 @ContextConfiguration({"classpath:spring.xml"})
