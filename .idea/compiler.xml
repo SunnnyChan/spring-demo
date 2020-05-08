@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-web" />
         <module name="spring-data" />
+        <module name="spring-web" />
+        <module name="spring-bean" />
+        <module name="spring-cookbook" />
         <module name="spring-event" />
         <module name="spring-boot-starter" />
-        <module name="spring-bean" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-bean" options="-parameters" />
       <module name="spring-boot-starter" options="-parameters" />
+      <module name="spring-cookbook" options="-parameters" />
       <module name="spring-data" options="-parameters" />
       <module name="spring-event" options="-parameters" />
       <module name="spring-web" options="-parameters" />

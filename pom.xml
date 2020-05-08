@@ -44,5 +44,6 @@
         <module>spring-event</module>
         <module>spring-data</module>
         <module>spring-bean</module>
+        <module>spring-cookbook</module>
     </modules>
 </project>
