@@ -11,6 +11,7 @@
         <module name="spring-web" />
         <module name="spring-bean" />
         <module name="spring-cookbook" />
+        <module name="spring-integration" />
         <module name="spring-event" />
         <module name="spring-boot-starter" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="spring-cookbook" options="-parameters" />
       <module name="spring-data" options="-parameters" />
       <module name="spring-event" options="-parameters" />
+      <module name="spring-integration" options="-parameters" />
       <module name="spring-task" options="-parameters" />
       <module name="spring-web" options="-parameters" />
     </option>
